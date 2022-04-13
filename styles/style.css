@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div:first-child{
+                 background-color: green;
+               }
+
+div p:nth-last-child(2){
+                     background-color: orange;
+                   }
+
+p::first-line{
+                background-color: brown;
+             }             
+          
+p::first-letter{
+                 font-size: 100px;
+                 padding-right: 2px ;
+               }             
