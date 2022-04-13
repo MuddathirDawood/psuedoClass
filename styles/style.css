@@ -22,4 +22,39 @@ p::first-letter{
            
 #lorem::after{
         content: url("../images/Logo.png");
-      }                  
+      }
+
+/* 5 classes and 3 elements */      
+     
+#borem::before{
+                content: url("../images/solo-leveling-fire-jin-woo-152odsk6byi5dojl.jpg");
+              }
+
+#par2::first-letter{
+                        font-size: 50px;
+                   }
+         
+#torem::first-line{
+                    font-style: italic;
+                  }
+                  
+#par2:hover{
+                color: blue;
+           }
+
+a:visited{
+            color:white;
+            font-size: 50px;
+         }
+
+div:last-of-type{
+                font-size: x-large;
+              }
+              
+h2:not(p){
+            color: purple;
+          }
+          
+#p1:hover{
+            border: 5px solid;
+         }          
