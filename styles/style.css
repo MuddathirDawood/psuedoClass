@@ -7,7 +7,7 @@ div:first-child{
                  background-color: green;
                }
 
-div p:nth-last-child(2){
+div:nth-last-child(2){
                      background-color: orange;
                    }
 
@@ -18,4 +18,8 @@ p::first-line{
 p::first-letter{
                  font-size: 100px;
                  padding-right: 2px ;
-               }             
+               }         
+           
+#lorem::after{
+        content: url("../images/Logo.png");
+      }                  
